@@ -9,17 +9,17 @@
 .container-fiuled{
 	position: relative;
 }
-.container-fiuled:hover .container-text{
+/*.container-fiuled:hover .container-text{
 	display: block;
 }
-.img-responsive {
+*/.img-responsive {
   display: inline-block;
   height: auto;
   width: 100%;
   z-index: 1;
 }
 .container-text{
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	bottom: 0;
 	left: 0;

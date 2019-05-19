@@ -467,7 +467,7 @@
 	}
 	.order_text>hr{
 		border: 1px solid #777777;
-		width: 100%;
+		width: 95%;
 		margin-left: 0px;
 	    margin-top: 0px;
 	    margin-bottom: 5px;
@@ -514,7 +514,7 @@
 	}
 	.order_3_text>hr{
 		border: 1px solid #777777;
-		width: 97%;
+		width: 95%;
 		margin-top: 0px;
 		margin-bottom: 10px;
 		margin-left: 0;
@@ -682,8 +682,8 @@
 		color: #000;
 		margin-bottom: 0;
 	}
-	..order1_text>h1>span{
-		margin-left: 5px;
+	.order1_text>h1>span{
+		margin-left: 2px;
 	}
 	.order1_text>p{
 		font-size:8px;
@@ -691,7 +691,7 @@
 	}
 	.order1_text>hr{
 		border: 1px solid #777777;
-		width: 100%;
+		width: 95%;
 		margin-left: 0px;
 	    margin-top: 0px;
 	    margin-bottom: 5px;
@@ -877,7 +877,7 @@
 	}
 	.order6_text>hr{
 		border: 1px solid #777777;
-		width: 100%;
+		width: 95%;
 		margin-left: 0px;
 	    margin-top: 0;
 	    margin-bottom: 5px;
@@ -979,7 +979,7 @@
 	}
 	.order_8_text>hr{
 		border: 1px solid #777777;
-		width: 100%;
+		width: 95%;
 		margin-top: 0px;
 		margin-bottom: 10px;
 		margin-left: 0;
@@ -1057,7 +1057,7 @@
 	}
 	.order9_text>hr{
 		border: 1px solid #777777;
-		width: 98%;
+		width: 95%;
 		margin-left: 0px;
 	    margin-top: 0px;
 	    margin-bottom: 5px;
