@@ -238,12 +238,12 @@
 		margin-left: auto;
 		margin-right: auto;
 		display: flex;
-		font-size: 10px;
+		font-size: 8px;
 		color: #666;
 		text-align: center;
 	}
 	.section2-input {
-		width: 60%;
+		width: 70%;
 		position: relative;
 		margin-bottom: 15px;
 		margin-top: 15px;
@@ -254,20 +254,20 @@
 		width: 20px;
 		height: 20px;
 		position: absolute;
-		top: 10px;
+		top: 13px;
 		left: 8px;
 	}
 	.section2-input input {
 		width: 100%;
-		height: 30px;
+		height: 35px;
 		text-indent: 4rem;
 		border: 1px #999 solid;
-		border-radius: 10px;
+		border-radius: 5px;
 	}
 	.section2-botton {
-		width: 50%;
-		height: 30px;
-		margin-left: 25%;
+		width: 70%;
+		height: 35px;
+		margin-left: 15%;
 		margin-top: 0;
 		font-size: 18px;
 		line-height: 1.2;
@@ -415,19 +415,19 @@
 @media(max-width: 400px){
 	.order{
 		background-color: #000;
-		width: 30px;
-		height: 55px;
+		width: 20px;
+		height: 45px;
 		margin-left:1%;
 		text-align: center;
 	}
 	.order>span{
 		padding-left: 2.1%;
 		color: #fff;
-		line-height: 20px;
-		font-size: 20px;
+		line-height: 15px;
+		font-size: 15px;
 	}
 	.section4-box{
-		width: 100%;
+		width: 98%;
 		height: 250px;
 		display: flex;
 	}
@@ -438,13 +438,14 @@
 	    padding-left: 5px;
 	}
 	.order_text{
-		margin-top:-74px;
-		padding-left: 35px;
+		margin-top:-60px;
+		padding-left: 30px;
 		line-height: 10px;
 	}
 	.order_text>h1{
-		font-size:18px;
+		font-size:15px;
 		color: #000;
+		margin-bottom: 0;
 	}
 	.order_text>p{
 		font-size:12px;
@@ -454,8 +455,8 @@
 		border: 1px solid #777777;
 		width: 100%;
 		margin-left: 0px;
-	    margin-top: 10px;
-	    margin-bottom: 10px;
+	    margin-top: 0px;
+	    margin-bottom: 5px;
 	}
 	.order_img{
 		width: 100%;
@@ -468,29 +469,30 @@
 	}
 	.order3{
 		padding-top: 30px;
-		width: 100%;
+		width: 98%;
 		height: 280px;
 	}
 	.order_3{
 		background-color: #000;
-		width: 40px;
-		height: 60px;
-		margin-left:2.2%;
+		width: 25px;
+		height: 45px;
+		margin-left:1%;
 		text-align: center;
 	}
 	.order_3>span{
 		color: #fff;
-		line-height: 25px;
-		font-size: 25px;
+		line-height: 15px;
+		font-size: 15px;
 	}
 	.order_3_text{
-		margin-top:-78px;
-		padding-left: 55px;
-		line-height: 10px;
+		margin-top: -60px;
+	    padding-left: 40px;
+	    line-height: 10px;
 	}
 	.order_3_text>h1{
-		font-size:20px;
-		color: #000;
+		font-size: 15px;
+	    color: #000;
+	    margin-bottom: 0;
 	}
 	.order_3_text>p{
 		font-size:13px;
@@ -499,7 +501,7 @@
 	.order_3_text>hr{
 		border: 1px solid #777777;
 		width: 97%;
-		margin-top: 10px;
+		margin-top: 0px;
 		margin-bottom: 10px;
 		margin-left: 0;
 	}
@@ -585,16 +587,16 @@
 	}
 	.order1{
 		background-color: #000;
-		width: 30px;
-		height: 50px;
+		width: 20px;
+		height:40px;
 		margin-left:2.1%;
 		text-align: center;
 	}
 	.order1>span{
 		padding-left: 2.1%;
 		color: #fff;
-		line-height: 23px;
-		font-size: 18px;
+		line-height: 15px;
+		font-size: 15px;
 	}
 	.section5-left{
 		/*float: left;*/
@@ -643,24 +645,25 @@
 	    padding-left: 8px;
 	}
 	.order1_text{
-		margin-top:-68px;
-		padding-left: 39px;
+		margin-top:-58px;
+		padding-left: 26px;
 		line-height: 10px;
 	}
 	.order1_text>h1{
 		font-size:15px;
 		color: #000;
+		margin-bottom: 0;
 	}
 	.order1_text>p{
-		font-size:10px;
+		font-size:8px;
 		color: #333;
 	}
 	.order1_text>hr{
 		border: 1px solid #777777;
 		width: 100%;
 		margin-left: 0px;
-	    margin-top: 10px;
-	    margin-bottom: 10px;
+	    margin-top: 0px;
+	    margin-bottom: 5px;
 	}
 	.order1_img{
 		width: 100%;
@@ -756,8 +759,8 @@
 	}
 	.order6{
 		background-color: #000;
-		width: 25px;
-		height: 50px;
+		width: 20px;
+		height: 40px;
 		margin-left:2.1%;
 		text-align: center;
 	}
@@ -814,16 +817,17 @@
 	    padding-left: 8px;
 	}
 	.order6_text{
-		margin-top:-68px;
-		padding-left: 39px;
+		margin-top:-58px;
+		padding-left: 26px;
 		line-height: 10px;
 	}
 	.order6_text>h1{
 		font-size:15px;
 		color: #000;
+		margin-bottom: 0;
 	}
 	.order6_text>span{
-		font-size:10px;
+		font-size:8px;
 		color: #333;
 	}
 	.order6_text>hr{
@@ -903,35 +907,36 @@
 	}
 	.order_8{
 		background-color: #000;
-		width: 40px;
-		height: 60px;
-		margin-left:2.2%;
+		width: 25px;
+		height: 45px;
+		margin-left:0;
 		text-align: center;
 	}
 	.order_8>span{
 		color: #fff;
-		line-height: 25px;
-		font-size: 25px;
+		line-height: 15px;
+		font-size: 15px;
 	}
 	.order_8_text{
-		margin-top:-85px;
-		padding-left: 70px;
+		margin-top:-60px;
+		padding-left: 40px;
 		line-height: 10px;
 	}
 	.order_8_text>h1{
-		font-size:20px;
+		font-size:15px;
 		color: #000;
+		margin-bottom: 0;
 	}
 	.order_8_text>p{
-		font-size:13px;
+		font-size:12px;
 		color: #333;
 	}
 	.order_8_text>hr{
 		border: 1px solid #777777;
-		width: 96%;
-		margin-top: 10px;
+		width: 100%;
+		margin-top: 0px;
 		margin-bottom: 10px;
-		margin-left: -2px;
+		margin-left: 0;
 	}
 	.order_8_img>img{
 		width:100%;
@@ -947,19 +952,19 @@
 	}
 	.order9{
 		background-color: #000;
-		width: 30px;
-		height: 50px;
+		width: 20px;
+		height: 45px;
 		margin-left:2.1%;
 		text-align: center;
 	}
 	.order9>span{
 		padding-left: 2.1%;
 		color: #fff;
-		line-height: 23px;
-		font-size: 18px;
+		line-height:15px;
+		font-size: 15px;
 	}
 	.section9-box{
-		width: 100%;
+		width: 95%;
 		height: 250px;
 		display: flex;
 		 flex-wrap: wrap;
@@ -977,13 +982,14 @@
 	    padding-left: 8px;
 	}
 	.order9_text{
-		margin-top:-68px;
-		padding-left: 39px;
+		margin-top:-60px;
+		padding-left: 30px;
 		line-height: 10px;
 	}
 	.order9_text>h1{
 		font-size:15px;
 		color: #000;
+		margin-bottom: 0;
 	}
 	.order9_text>p{
 		font-size:10px;
@@ -991,10 +997,10 @@
 	}
 	.order9_text>hr{
 		border: 1px solid #777777;
-		width: 100%;
+		width: 98%;
 		margin-left: 0px;
-	    margin-top: 10px;
-	    margin-bottom: 10px;
+	    margin-top: 0px;
+	    margin-bottom: 5px;
 	}
 	.order9_img{
 		width: 100%;
