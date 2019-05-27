@@ -492,7 +492,7 @@
 	}
 	.order_3_text{
 		margin-top: -60px;
-	    padding-left: 40px;
+	    padding-left: 30px;
 	    line-height: 10px;
 	}
 	.order_3_text>h1{
@@ -955,7 +955,7 @@
 	}
 	.order_8_text{
 		margin-top:-60px;
-		padding-left: 40px;
+		padding-left: 30px;
 		line-height: 10px;
 	}
 	.order_8_text>h1{
@@ -1098,6 +1098,12 @@
 	.right>h5{
 		font-size: 12px;
 	}
+	.order6_text{
+		margin-top: -55px;
+	}
+	.order6_text>h1{
+		font-size: 12px;
+	}
 	.headline-icon1>img {
 	    width: 80%;
 	    margin-left: 10%;
@@ -1113,6 +1119,7 @@
 	}
 	.section2-texts{
 		font-size: 8px;
+		text-align: center;
 		/*background: red;*/
 	}
 	.section2-text{
