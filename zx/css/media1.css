@@ -867,7 +867,7 @@
 		margin-bottom: 0;
 	}
 	.order6_text>span{
-		font-size:8px;
+		font-size:10px;
 		color: #333;
 	}
 	.order6_text>hr{
@@ -1099,7 +1099,9 @@
 		font-size: 12px;
 	}
 	.headline-icon1>h4{
-		margin-left: 15%;
+		margin-left:0;
+		width:100%;
+		text-align:center;
 		font-size: 14px;
 	}
 	.section2-texts{
@@ -1111,6 +1113,8 @@
 	.headline-icon2>h4{
 		margin-left: 52px;
 		font-size: 15px;
+		width:100%;
+		text-align:center;
 	}
 	.section3-text1{
 		font-size: 18px;
