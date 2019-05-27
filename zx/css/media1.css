@@ -1,4 +1,4 @@
-/*第一个*/
+﻿/*第一个*/
 @media(max-width: 500px) and (min-width: 380px){
 		#section{
 		width: 100%;
@@ -228,7 +228,7 @@
 	}
 	.section2-text{
 		margin-top: 20px;
-		width: 70%;
+		width: 61%;
 		margin-left: auto;
 		margin-right: auto;
 		display: flex;
@@ -305,7 +305,7 @@
 	    padding-top: 0; 
 	    top: 0;
 	    left: 0;
-	    margin-left: 75px;
+	    margin-left: 90px;
 	    letter-spacing: 5px;
 	    line-height: 30px;
 	    font-size: 15px;
