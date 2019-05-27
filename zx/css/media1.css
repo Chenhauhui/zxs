@@ -1,5 +1,5 @@
 /*第一个*/
-@media(max-width: 400px){
+@media(max-width: 500px) and (min-width: 380px){
 		#section{
 		width: 100%;
 		height: auto;
@@ -36,7 +36,7 @@
 	}
 }
 /*第二个*/
-@media(max-width: 400px){
+@media(max-width: 500px) and (min-width: 380px){
 	#section1{
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -127,7 +127,7 @@
 	}
 }
 /*第三个*/
-@media(max-width: 400px){
+@media(max-width: 500px) and (min-width: 380px){
 	.headline>h3{
 		text-align: center;
 		padding-top:0px;
@@ -197,21 +197,15 @@
 		/*text-align: center;*/
 	}
 	.logo-text{
-		position: absolute;
-		bottom: 0;
-		left: 0;
+		
 		font-size: 12px;
 	}
 	.logo-text1{
-		position: absolute;
-		bottom: 0;
-		left: 0;
+		
 		font-size: 12px;
 	}
 	.logo-text2{
-		position: absolute;
-		bottom: 0;
-		left: 0;
+	
 		font-size: 12px;
 	}
 	.px{
@@ -288,7 +282,7 @@
 	}
 }
 /*第四个*/
-@media(max-width: 400px){
+@media(max-width: 500px) and (min-width: 370px){
 	#section3{
 		padding-top:5%;
 		padding-bottom:20px;
@@ -412,7 +406,7 @@
 	}
 }
 /*第五个*/
-@media(max-width: 400px){
+@media(max-width: 500px) and (min-width: 300px){
 	.order{
 		background-color: #000;
 		width: 20px;
@@ -437,8 +431,6 @@
 		position: absolute;
 		top: 30%;
 		color: #fff;
-		font-size: 15px;
-		text-align: center;
 	}
 	.section4-box{
 		width: 98%;
@@ -534,7 +526,7 @@
 	}
 }
 /*第六个*/
-@media(max-width: 400px){
+@media(max-width: 500px){
 	#section5{
 		height: 720px;
 	}
@@ -723,7 +715,10 @@
 	}
 }
 /*第七个*/
-@media (max-width: 400px) {
+@media (max-width: 500px){
+	/*	font-size: 15px;
+		text-align: center;
+	}*/
 	#section6{
 		height: 720px;
 	}
@@ -909,7 +904,7 @@
 	}
 }
 /*第八个*/
-@media (max-width: 400px) {
+@media (max-width: 500px){
 	#section8{
 		padding-top: 0;
 		height: 480px;
@@ -958,11 +953,6 @@
 		text-align: center;
 		position: relative;
 	}
-	.order_8>span{
-		color: #fff;
-		line-height: 15px;
-		font-size: 15px;
-	}
 	.order_8_text{
 		margin-top:-60px;
 		padding-left: 40px;
@@ -992,7 +982,7 @@
 	}
 }
 /*第九个*/
-@media (max-width: 400px) {
+@media (max-width: 500px){
 	.section9{
 		margin-top: 10px;
 	}
@@ -1073,7 +1063,7 @@
 	}
 }
 /*第十个*/
-@media (max-width: 400px) {
+@media (max-width: 500px){
 	.order_8>.x{
 		width: 50%;
 		margin: 0 auto;
@@ -1098,5 +1088,221 @@
 		height:auto;
 		padding-top:30px;
 		margin-left:0;
+	}
+}
+/*更小的*/
+@media (max-width: 370px) {
+	.text2{
+		font-size: 15px;
+	}
+	.right>h5{
+		font-size: 12px;
+	}
+	.headline-icon1>h4{
+		margin-left: 15%;
+		font-size: 14px;
+	}
+	.section2-texts{
+		font-size: 8px;
+	}
+	.section2-text{
+		font-size: 12px;
+	}
+	.headline-icon2>h4{
+		margin-left: 52px;
+		font-size: 15px;
+	}
+	.section3-text1{
+		font-size: 18px;
+	}
+	.section3-text2{
+		font-size: 18px;
+	}
+	.hr{
+		position: absolute;
+		left: -2%;
+	}
+	.hr1{
+		position: absolute;
+		right: -2%;
+	}
+	.box-text{
+		font-size: 14px;
+	}
+	.section3-right{
+		margin-top: 20%;
+		font-size: 14px;
+	}
+	.order{
+		background-color: #000;
+		width: 20px;
+		height: 38px;
+		margin-left:1%;
+		text-align: center;
+		position: relative;
+	}
+	.order>.x{
+		width: 50%;
+		margin: 0 auto;
+		height: 1px;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		background: #fff;
+		text-align: center;
+	}
+	.order>.number{
+		width: 100%;
+		height: 15px;
+		position: absolute;
+		top: 30%;
+		color: #fff;
+		font-size: 15px;
+		text-align: center;
+	}
+	.section4-box{
+		width: 98%;
+		height: 250px;
+		display: flex;
+	}
+	.section4-box>.col-xs-6{
+		position: relative;
+	    min-height: 1px;
+	    padding-right: 5px;
+	    padding-left: 5px;
+	}
+	.order_text{
+		margin-top:-60px;
+		padding-left: 30px;
+		line-height: 10px;
+	}
+	.order_text>h1{
+		font-size:15px;
+		color: #000;
+		margin-bottom: 0;
+	}
+	.order_text>p{
+		font-size:11px;
+		color: #333;
+	}
+	.order_text>hr{
+		border: 1px solid #777777;
+		width: 95%;
+		margin-left: 0px;
+	    margin-top: 0px;
+	    margin-bottom: 5px;
+	}
+	.order_img{
+		width: 100%;
+	}
+	.order_img>img{
+		width: 100%;
+		height: 180px;
+		padding-top:15px;
+		padding-left: 2%;
+	}
+	.order3{
+		padding-top: 30px;
+		width: 98%;
+		height: 280px;
+	}
+	.order_3{
+		background-color: #000;
+		width: 25px;
+		height: 45px;
+		margin-left:1%;
+		text-align: center;
+	}
+	.order_3>span{
+		color: #fff;
+		line-height: 15px;
+		font-size: 15px;
+	}
+	.order_3_text{
+		margin-top: -60px;
+	    padding-left: 40px;
+	    line-height: 10px;
+	}
+	.order_3_text>h1{
+		font-size: 15px;
+	    color: #000;
+	    margin-bottom: 0;
+	}
+	.order_3_text>p{
+		font-size:13px;
+		color: #333;
+	}
+	.order_3_text>hr{
+		border: 1px solid #777777;
+		width: 95%;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+	.order_3_img>img{
+		width:96%;
+		height:auto;
+		padding-top:30px;
+		margin-left:2%;
+		margin-right: 2%;
+	}
+	.order3>.col-sm-12{
+		position: relative;
+	    min-height: 1px;
+	    padding-right: 5px;
+	    padding-left: 5px;
+	}
+	.box1-text{
+		font-size: 12px;
+	}
+	.section5-text{
+		font-size: 11px;
+	}
+	.section5-text1,.section5-text1{
+		font-size: 18px;
+	}
+	.section5-right{
+		margin-top: 18%;
+	}
+	.hr3{
+		position: absolute;
+		right: -4%;
+	}
+	.order1_text>h1{
+		font-size: 13px;
+	}
+	.order1_text>p{
+		font-size: 5px;s
+	}
+	.section6-right{
+		margin-top: 18%;
+	}
+	.section6-text1,.section6-text2{
+		font-size: 18px;
+	}
+	.order6_text>span{
+		font-size: 5px;
+	}
+	.section8-text,.section8-text1{
+		font-size: 15px;
+	}
+	.section8-text2{
+		font-size: 13px;
+	}
+	.section8-logo{
+		position: absolute;
+		bottom: 31%;
+	}
+	.order_8{
+		height: 40px;
+	}
+	.order9_text{
+		margin-top: -55px;
+	}
+	.order9{
+		height: 35px;
+	}
+	.order9_text>h1{
+		font-size: 13px;
 	}
 }

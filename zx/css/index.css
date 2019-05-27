@@ -188,7 +188,7 @@
 	width: 50%;
 	height: 80px;
 	margin: 23px  auto;
-	position: relative;
+	/*position: relative;*/
 }
 .logo{
 	width: 80px;
@@ -206,21 +206,12 @@
 	/*text-align: center;*/
 }
 .logo-text{
-	position: absolute;
-	bottom: -40%;
-	left: 2%;
 	font-size: 18px;
 }
 .logo-text1{
-	position: absolute;
-	bottom: -40%;
-	left: 38%;
 	font-size: 18px;
 }
 .logo-text2{
-	position: absolute;
-	bottom: -40%;
-	left: 75%;
 	font-size: 18px;
 }
 .px{
@@ -424,16 +415,32 @@
 	width: 70px;
 	height: 120px;
 	text-align: center;
+	position: relative;
 }
 .section4-box{
 	width: 80%;
 	margin: 0 auto;
 	height: 510px;
 }
-.order>span{
+.order>.x{
+	width: 50%;
+	margin: 0 auto;
+	height: 2px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	background: #fff;
+	text-align: center;
+}
+.order>.number{
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	top: 40%;
+	left: 0;
 	color: #fff;
-	line-height: 50px;
-	font-size: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 .order_text{
 	margin-top:-130px;
@@ -478,7 +485,7 @@
 }
 .order_3_text{
 	margin-top:-140px;
-	padding-left: 90px;
+	padding-left: 120px;
 	line-height: 10px;
 }
 .order_3_text>h1{
@@ -595,16 +602,32 @@
 	width: 70px;
 	height: 120px;
 	text-align: center;
+	position: relative;
+}
+.order1>.x{
+	width: 50%;
+	margin: 0 auto;
+	height: 2px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	background: #fff;
+	text-align: center;
+}
+.order1>.number{
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
 }
 .section5-box{
 	width: 82%;
 	margin: 0 auto;
 	height: 480px;
-}
-.order1>span{
-	color: #fff;
-	line-height: 50px;
-	font-size: 50px;
 }
 .order1_text{
 	margin-top:-130px;
@@ -651,9 +674,9 @@
 .section6-boxs{
 	margin-top: 40px;
 }
-.section6-boxs{
+/*.section6-boxs{
 	margin-top: 50px;
-}
+}*/
 .section6-text{
 	width: 50%;
 	margin: 0 auto;
@@ -746,16 +769,32 @@
 	width: 70px;
 	height: 120px;
 	text-align: center;
+	position: relative;
+}
+.order6>.x{
+	width: 50%;
+	margin: 0 auto;
+	height: 2px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	background: #fff;
+	text-align: center;
+}
+.order6>.number{
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
 }
 .section6-box{
-	width: 82%;
+	width: 100%;
 	margin: 0 auto;
 	height: 480px;
-}
-.order6>span{
-	color: #fff;
-	line-height: 50px;
-	font-size: 50px;
 }
 .order6_text{
 	margin-top:-130px;
@@ -847,11 +886,26 @@
 	height: 120px;
 	margin-left:2.2%;
 	text-align: center;
+	position: relative;
 }
-.order_8>span{
+.order_8>.x{
+	width: 50%;
+	margin: 0 auto;
+	height: 2px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	background: #fff;
+	text-align: center;
+}
+.order_8>.number{
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	top: 40%;
 	color: #fff;
-	line-height: 50px;
-	font-size: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 .order_8_text{
 	margin-top:-140px;
@@ -885,16 +939,32 @@
 	width: 70px;
 	height: 120px;
 	text-align: center;
+	position: relative;
+}
+.order9>.x{
+	width: 50%;
+	margin: 0 auto;
+	height: 2px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	background: #fff;
+	text-align: center;
+}
+.order9>.number{
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
 }
 .section9-box{
 	width: 82%;
 	margin: 0 auto;
 	height: 480px;
-}
-.order9>span{
-	color: #fff;
-	line-height: 50px;
-	font-size: 50px;
 }
 .order9_text{
 	margin-top:-130px;
